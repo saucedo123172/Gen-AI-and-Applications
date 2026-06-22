@@ -44,7 +44,7 @@ briefing — powered by the **Anthropic Claude API**.
 
 ```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY="your-api-key"
+export ANTHROPIC_API_KEY="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"
 ```
 
 ## Usage
