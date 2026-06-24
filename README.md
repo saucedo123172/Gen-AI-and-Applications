@@ -95,3 +95,32 @@ pytest
 
 The tests mock all network and API calls, so they run offline and without an
 API key.
+
+## Vibe Report
+
+- While orchestrating and working with the AI Agent to create this project,
+  there were a handful of things that I needed to clarify/guide the agent
+  to include in the code. This caused the "vibe" to need more input from
+  the prompeter. For example, when I began, I gave the agent the
+  PRD instruction to give all temperature's in *Fahrenheit* for all *US*
+  locations. This prompted the agent to ask  what would happen to *NON-US*
+  locations, to where I guided it to include both Fahrenheit and Celsius.
+- Most of my "Builder Hammer" was used when the agent asked those questions
+  like the above example. Other questions included direct instructions
+  for how to troubleshoot when dates or locations don't exists/aren't valid.
+  These questions/clarifications prompted me to update the initial
+  documentation given to the agent. 
+- My most successful steering prompt was when I included a briefing
+  example for the agent to replicate the syntax/structure.
+  *"You have an outdoor run at 7am. Forecast temperature is 81°F with
+  70% humidity — bring water and sunscreen. Your 12pm lunch is nearby,
+  expect partly cloudy skies. Best time to leave for lunch is 11:35am."*
+  This gave the agent enough information for the attitude/tone needed.
+
+
+
+
+
+
+
+
